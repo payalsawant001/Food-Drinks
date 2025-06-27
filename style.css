@@ -1,0 +1,62 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-btn {
+  color: #ff5600;
+  background: transparent;
+  border: 2px solid #ff5600;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background: #ff5600;
+  color: #fff;
+}
+
+.section1 {
+  min-height: 100vh;
+  background: url("./Images/h1_hero.png") center / cover no-repeat;
+}
+
+.sec2p {
+  color: #ff5600;
+}
+
+.about-tag {
+  color: #ff5600;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+.outline-btn {
+  color: #ff5600;
+  background: transparent;
+  border: 2px solid #ff5600;
+  padding: 14px 48px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.outline-btn:hover {
+  background: #ff5600;
+  color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  .about-restaurant .row {
+    text-align: center;
+  }
+  .about-restaurant .col-lg-6:first-child {
+    order: 2;
+  }
+}
